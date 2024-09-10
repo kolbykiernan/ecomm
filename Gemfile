@@ -63,3 +63,9 @@ gem "devise", "~> 4.9"
 gem "font-awesome-sass", "~> 6.5.1"
 
 gem "pagy", "~> 6.2"
+
+gem "stripe", "~> 12.5"
+
+group :development, :test do
+  gem 'dotenv-rails'
+end

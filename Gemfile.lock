@@ -105,6 +105,10 @@ GEM
       railties (>= 4.1.0)
       responders
       warden (~> 1.2.3)
+    dotenv (3.1.2)
+    dotenv-rails (3.1.2)
+      dotenv (= 3.1.2)
+      railties (>= 6.1)
     drb (2.2.1)
     erubi (1.13.0)
     ffi (1.17.0-aarch64-linux-gnu)
@@ -299,6 +303,7 @@ GEM
     stimulus-rails (1.3.4)
       railties (>= 6.0.0)
     stringio (3.1.1)
+    stripe (12.5.0)
     strscan (3.1.0)
     tailwindcss-rails (2.7.3)
       railties (>= 7.0.0)
@@ -360,6 +365,7 @@ DEPENDENCIES
   capybara
   debug
   devise (~> 4.9)
+  dotenv-rails
   font-awesome-sass (~> 6.5.1)
   image_processing (~> 1.2)
   importmap-rails
@@ -372,6 +378,7 @@ DEPENDENCIES
   sprockets-rails
   sqlite3 (>= 1.4)
   stimulus-rails
+  stripe (~> 12.5)
   tailwindcss-rails
   turbo-rails
   tzinfo-data
